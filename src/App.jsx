@@ -19,6 +19,7 @@ import Navbar from "./components/Navbar/Navbar";
 import ProtectedRoute from "./components/Protected/ProtectedRoute";
 import ProtectedLayout from "./components/Protected/ProtectedLayout";
 import Table from "./components/Table/Table";
+import Todo from "./components/Todo/Todo";
 // import UseEffect from "./components/useEffect/UseEffect";
 
 
@@ -30,6 +31,9 @@ function App() {
         <Route path="/radio" element={<Radio />} />
 
     <Route path="/table" element={<Table />} />
+    <Route path="/todo" element={<Todo />} />
+
+    
         <Route path="/useRef" element={<Stopwatch />} />
 
 
